@@ -11,12 +11,16 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.littleshoot.proxy.impl.DefaultHttpProxyServer;
 import org.littleshoot.proxy.test.SocketClientUtil;
 import org.mockserver.integration.ClientAndServer;
 import org.mockserver.matchers.Times;
 import org.mockserver.model.ConnectionOptions;
-
+import com.ly.travel.institute.proxy.server.HttpFilters;
+import com.ly.travel.institute.proxy.server.HttpFiltersAdapter;
+import com.ly.travel.institute.proxy.server.HttpFiltersSource;
+import com.ly.travel.institute.proxy.server.HttpFiltersSourceAdapter;
+import com.ly.travel.institute.proxy.server.HttpProxyServer;
+import com.ly.travel.institute.proxy.server.impl.DefaultHttpProxyServer;
 import java.io.IOException;
 import java.net.Socket;
 import java.util.Locale;

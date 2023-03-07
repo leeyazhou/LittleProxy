@@ -1,7 +1,8 @@
 package org.littleshoot.proxy;
 
 import org.junit.Test;
-import org.littleshoot.proxy.impl.DefaultHttpProxyServer;
+import com.ly.travel.institute.proxy.server.HttpProxyServer;
+import com.ly.travel.institute.proxy.server.impl.DefaultHttpProxyServer;
 
 public class StopProxyTest {
     @Test

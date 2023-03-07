@@ -12,8 +12,11 @@ import org.eclipse.jetty.server.Server;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.littleshoot.proxy.impl.DefaultHttpProxyServer;
-
+import com.ly.travel.institute.proxy.server.HttpFilters;
+import com.ly.travel.institute.proxy.server.HttpFiltersAdapter;
+import com.ly.travel.institute.proxy.server.HttpFiltersSourceAdapter;
+import com.ly.travel.institute.proxy.server.HttpProxyServer;
+import com.ly.travel.institute.proxy.server.impl.DefaultHttpProxyServer;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import static org.hamcrest.MatcherAssert.assertThat;

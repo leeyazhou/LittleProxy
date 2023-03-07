@@ -5,11 +5,12 @@ import io.netty.handler.codec.http.HttpMethod;
 import io.netty.handler.codec.http.HttpObject;
 import io.netty.handler.codec.http.HttpRequest;
 import io.netty.handler.codec.http.HttpResponse;
-import org.littleshoot.proxy.extras.SelfSignedMitmManager;
-
 import java.util.HashSet;
 import java.util.Set;
-
+import com.ly.travel.institute.proxy.server.HttpFilters;
+import com.ly.travel.institute.proxy.server.HttpFiltersAdapter;
+import com.ly.travel.institute.proxy.server.HttpFiltersSourceAdapter;
+import com.ly.travel.institute.proxy.server.extras.SelfSignedMitmManager;
 import static java.nio.charset.StandardCharsets.UTF_8;
 import static org.hamcrest.Matchers.hasItem;
 import static org.junit.Assert.assertEquals;

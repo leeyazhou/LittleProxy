@@ -1,6 +1,7 @@
 package org.littleshoot.proxy;
 
-import org.littleshoot.proxy.extras.SelfSignedMitmManager;
+import com.ly.travel.institute.proxy.server.ProxyAuthenticator;
+import com.ly.travel.institute.proxy.server.extras.SelfSignedMitmManager;
 
 /**
  * Tests a single proxy that requires username/password authentication and that

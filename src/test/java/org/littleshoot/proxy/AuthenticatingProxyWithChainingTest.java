@@ -2,8 +2,11 @@ package org.littleshoot.proxy;
 
 import io.netty.handler.codec.http.HttpRequest;
 import org.junit.Assert;
-import org.littleshoot.proxy.impl.ClientDetails;
-
+import com.ly.travel.institute.proxy.server.ChainedProxy;
+import com.ly.travel.institute.proxy.server.ChainedProxyAdapter;
+import com.ly.travel.institute.proxy.server.ChainedProxyManager;
+import com.ly.travel.institute.proxy.server.ProxyAuthenticator;
+import com.ly.travel.institute.proxy.server.impl.ClientDetails;
 import java.util.Queue;
 
 /**

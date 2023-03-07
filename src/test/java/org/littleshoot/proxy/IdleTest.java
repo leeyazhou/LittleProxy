@@ -5,8 +5,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.littleshoot.proxy.impl.DefaultHttpProxyServer;
-
+import com.ly.travel.institute.proxy.server.HttpProxyServer;
+import com.ly.travel.institute.proxy.server.impl.DefaultHttpProxyServer;
 import java.net.InetSocketAddress;
 import java.net.Proxy;
 import java.net.URL;

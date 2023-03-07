@@ -10,7 +10,10 @@ import javax.net.ssl.SSLEngine;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
-import org.littleshoot.proxy.extras.SelfSignedSslEngineSource;
+import com.ly.travel.institute.proxy.server.ChainedProxy;
+import com.ly.travel.institute.proxy.server.HttpProxyServerBootstrap;
+import com.ly.travel.institute.proxy.server.SslEngineSource;
+import com.ly.travel.institute.proxy.server.extras.SelfSignedSslEngineSource;
 
 public class SelfSignedGeneratedSslEngineChainedProxyTest extends BaseChainedProxyTest {
 

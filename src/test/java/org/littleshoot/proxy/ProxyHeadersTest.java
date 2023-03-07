@@ -8,11 +8,11 @@ import org.apache.http.util.EntityUtils;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.littleshoot.proxy.impl.DefaultHttpProxyServer;
 import org.mockserver.integration.ClientAndServer;
 import org.mockserver.matchers.Times;
 import org.mockserver.model.ConnectionOptions;
-
+import com.ly.travel.institute.proxy.server.HttpProxyServer;
+import com.ly.travel.institute.proxy.server.impl.DefaultHttpProxyServer;
 import static org.hamcrest.Matchers.emptyArray;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.mockserver.model.HttpRequest.request;

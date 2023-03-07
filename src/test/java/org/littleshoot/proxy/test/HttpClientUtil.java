@@ -9,8 +9,7 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
-import org.littleshoot.proxy.HttpProxyServer;
-
+import com.ly.travel.institute.proxy.server.HttpProxyServer;
 import java.io.IOException;
 
 import static java.nio.charset.StandardCharsets.UTF_8;

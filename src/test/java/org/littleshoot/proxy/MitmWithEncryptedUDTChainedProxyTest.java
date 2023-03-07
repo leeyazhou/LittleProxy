@@ -1,12 +1,14 @@
 package org.littleshoot.proxy;
 
 import org.junit.BeforeClass;
-import org.littleshoot.proxy.extras.SelfSignedSslEngineSource;
-
+import com.ly.travel.institute.proxy.server.ChainedProxy;
+import com.ly.travel.institute.proxy.server.HttpProxyServerBootstrap;
+import com.ly.travel.institute.proxy.server.SslEngineSource;
+import com.ly.travel.institute.proxy.server.TransportProtocol;
+import com.ly.travel.institute.proxy.server.extras.SelfSignedSslEngineSource;
 import javax.net.ssl.SSLEngine;
-
+import static com.ly.travel.institute.proxy.server.TransportProtocol.UDT;
 import static org.littleshoot.proxy.TestUtils.disableOnMac;
-import static org.littleshoot.proxy.TransportProtocol.UDT;
 
 public class MitmWithEncryptedUDTChainedProxyTest extends MitmWithChainedProxyTest {
     private final SslEngineSource sslEngineSource = new SelfSignedSslEngineSource(

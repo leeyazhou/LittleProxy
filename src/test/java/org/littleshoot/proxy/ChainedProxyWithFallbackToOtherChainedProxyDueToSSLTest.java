@@ -1,6 +1,8 @@
 package org.littleshoot.proxy;
 
 import javax.net.ssl.SSLEngine;
+import com.ly.travel.institute.proxy.server.ChainedProxyManager;
+import com.ly.travel.institute.proxy.server.TransportProtocol;
 
 /**
  * Tests a proxy chained to a downstream proxy with an untrusted SSL cert. When

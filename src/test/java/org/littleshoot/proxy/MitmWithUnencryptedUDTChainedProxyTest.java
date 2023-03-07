@@ -1,9 +1,11 @@
 package org.littleshoot.proxy;
 
 import org.junit.BeforeClass;
-
+import com.ly.travel.institute.proxy.server.ChainedProxy;
+import com.ly.travel.institute.proxy.server.HttpProxyServerBootstrap;
+import com.ly.travel.institute.proxy.server.TransportProtocol;
+import static com.ly.travel.institute.proxy.server.TransportProtocol.UDT;
 import static org.littleshoot.proxy.TestUtils.disableOnMac;
-import static org.littleshoot.proxy.TransportProtocol.UDT;
 
 public class MitmWithUnencryptedUDTChainedProxyTest extends MitmWithChainedProxyTest {
     @BeforeClass

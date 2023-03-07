@@ -1,8 +1,10 @@
 package org.littleshoot.proxy;
 
-import org.littleshoot.proxy.extras.SelfSignedSslEngineSource;
-
 import javax.net.ssl.SSLEngine;
+import com.ly.travel.institute.proxy.server.ChainedProxy;
+import com.ly.travel.institute.proxy.server.HttpProxyServerBootstrap;
+import com.ly.travel.institute.proxy.server.SslEngineSource;
+import com.ly.travel.institute.proxy.server.extras.SelfSignedSslEngineSource;
 
 public class SelfSignedSslEngineChainedProxyTest extends BaseChainedProxyTest {
     private final SslEngineSource sslEngineSource = new SelfSignedSslEngineSource("/certificate/chain_proxy_keystore.jks",

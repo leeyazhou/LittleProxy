@@ -1,6 +1,9 @@
 package org.littleshoot.proxy;
 
-import static org.littleshoot.proxy.TransportProtocol.TCP;
+import static com.ly.travel.institute.proxy.server.TransportProtocol.TCP;
+import com.ly.travel.institute.proxy.server.ChainedProxy;
+import com.ly.travel.institute.proxy.server.HttpProxyServerBootstrap;
+import com.ly.travel.institute.proxy.server.TransportProtocol;
 
 public class MitmWithUnencryptedTCPChainedProxyTest extends MitmWithChainedProxyTest {
     @Override

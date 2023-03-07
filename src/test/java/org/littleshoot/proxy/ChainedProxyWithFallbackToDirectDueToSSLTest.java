@@ -1,5 +1,8 @@
 package org.littleshoot.proxy;
 
+import com.ly.travel.institute.proxy.server.ChainedProxyAdapter;
+import com.ly.travel.institute.proxy.server.ChainedProxyManager;
+
 /**
  * Tests a proxy chained to a downstream proxy with an untrusted SSL cert. When
  * the downstream proxy is unavailable, the downstream proxy should just fall

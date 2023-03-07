@@ -14,8 +14,8 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runners.MethodSorters;
-import org.littleshoot.proxy.impl.DefaultHttpProxyServer;
-
+import com.ly.travel.institute.proxy.server.HttpProxyServer;
+import com.ly.travel.institute.proxy.server.impl.DefaultHttpProxyServer;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.both;
 import static org.hamcrest.Matchers.greaterThan;

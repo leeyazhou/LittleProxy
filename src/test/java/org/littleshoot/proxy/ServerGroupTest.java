@@ -6,12 +6,15 @@ import org.apache.http.HttpResponse;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.littleshoot.proxy.impl.DefaultHttpProxyServer;
-import org.littleshoot.proxy.impl.ThreadPoolConfiguration;
 import org.littleshoot.proxy.test.HttpClientUtil;
 import org.mockserver.integration.ClientAndServer;
 import org.mockserver.matchers.Times;
-
+import com.ly.travel.institute.proxy.server.HttpFilters;
+import com.ly.travel.institute.proxy.server.HttpFiltersAdapter;
+import com.ly.travel.institute.proxy.server.HttpFiltersSourceAdapter;
+import com.ly.travel.institute.proxy.server.HttpProxyServer;
+import com.ly.travel.institute.proxy.server.impl.DefaultHttpProxyServer;
+import com.ly.travel.institute.proxy.server.impl.ThreadPoolConfiguration;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicReference;
 

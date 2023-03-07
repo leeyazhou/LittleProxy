@@ -2,7 +2,8 @@ package org.littleshoot.proxy.extras;
 
 import io.netty.handler.codec.http.HttpRequest;
 import org.junit.Test;
-
+import com.ly.travel.institute.proxy.server.extras.SelfSignedMitmManager;
+import com.ly.travel.institute.proxy.server.extras.SelfSignedSslEngineSource;
 import javax.net.ssl.SSLEngine;
 import javax.net.ssl.SSLSession;
 

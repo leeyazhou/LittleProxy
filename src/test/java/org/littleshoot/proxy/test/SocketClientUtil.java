@@ -1,7 +1,5 @@
 package org.littleshoot.proxy.test;
 
-import org.littleshoot.proxy.HttpProxyServer;
-
 import java.io.EOFException;
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,7 +8,7 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.net.SocketException;
 import java.net.SocketTimeoutException;
-
+import com.ly.travel.institute.proxy.server.HttpProxyServer;
 import static java.nio.charset.StandardCharsets.UTF_8;
 
 /**

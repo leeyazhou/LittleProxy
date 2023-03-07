@@ -1,5 +1,7 @@
 package org.littleshoot.proxy;
 
+import com.ly.travel.institute.proxy.server.ProxyAuthenticator;
+
 /**
  * Tests a single proxy that requires username/password authentication.
  */

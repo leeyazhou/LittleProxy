@@ -8,8 +8,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.util.EntityUtils;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.littleshoot.proxy.impl.DefaultHttpProxyServer;
-
+import com.ly.travel.institute.proxy.server.impl.DefaultHttpProxyServer;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;

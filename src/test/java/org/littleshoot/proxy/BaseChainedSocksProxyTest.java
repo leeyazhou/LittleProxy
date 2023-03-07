@@ -10,7 +10,10 @@ import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 
 import java.net.InetSocketAddress;
-
+import com.ly.travel.institute.proxy.server.ChainedProxyAdapter;
+import com.ly.travel.institute.proxy.server.ChainedProxyManager;
+import com.ly.travel.institute.proxy.server.ChainedProxyType;
+import com.ly.travel.institute.proxy.server.UnknownChainedProxyTypeException;
 import static org.junit.Assert.fail;
 
 abstract public class BaseChainedSocksProxyTest extends BaseProxyTest {

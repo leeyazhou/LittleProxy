@@ -11,7 +11,6 @@ import org.apache.http.util.EntityUtils;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.littleshoot.proxy.impl.DefaultHttpProxyServer;
 import org.mockserver.integration.ClientAndServer;
 import org.mockserver.matchers.Times;
 import org.openqa.selenium.Proxy;
@@ -21,7 +20,11 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+import com.ly.travel.institute.proxy.server.HttpFilters;
+import com.ly.travel.institute.proxy.server.HttpFiltersAdapter;
+import com.ly.travel.institute.proxy.server.HttpFiltersSourceAdapter;
+import com.ly.travel.institute.proxy.server.HttpProxyServer;
+import com.ly.travel.institute.proxy.server.impl.DefaultHttpProxyServer;
 import java.nio.charset.StandardCharsets;
 import java.util.concurrent.TimeUnit;
 

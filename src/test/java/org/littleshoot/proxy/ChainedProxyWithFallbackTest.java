@@ -1,7 +1,7 @@
 package org.littleshoot.proxy;
 
 import org.junit.Assert;
-
+import com.ly.travel.institute.proxy.server.ChainedProxyAdapter;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.net.UnknownHostException;
